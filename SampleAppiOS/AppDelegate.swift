@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SampleApp
+//  SampleAppiOS
 //
-//  Created by Priya Kaushik on 05/04/18.
+//  Created by Priya Kaushik on 10/05/18.
 //  Copyright © 2018 Priya Kaushik. All rights reserved.
 //
 
