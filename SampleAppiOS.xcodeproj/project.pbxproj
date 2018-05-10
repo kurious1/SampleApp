@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E792FA6620A455DF00A63820 /* RecognizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E792FA5F20A455DE00A63820 /* RecognizerViewController.swift */; };
+		E792FA6720A455DF00A63820 /* ImageToPixelBufferConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E792FA6120A455DF00A63820 /* ImageToPixelBufferConverter.swift */; };
+		E792FA6820A455DF00A63820 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E792FA6220A455DF00A63820 /* MobileNet.mlmodel */; };
+		E792FA6920A455DF00A63820 /* PredictionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E792FA6420A455DF00A63820 /* PredictionView.swift */; };
+		E792FA6A20A455DF00A63820 /* GroceryItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E792FA6520A455DF00A63820 /* GroceryItemTableViewCell.swift */; };
 		E7E9337920A4477B00503AF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E9337820A4477B00503AF7 /* AppDelegate.swift */; };
 		E7E9337B20A4477B00503AF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E9337A20A4477B00503AF7 /* ViewController.swift */; };
 		E7E9337E20A4477B00503AF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E9337C20A4477B00503AF7 /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E792FA5F20A455DE00A63820 /* RecognizerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecognizerViewController.swift; sourceTree = "<group>"; };
+		E792FA6120A455DF00A63820 /* ImageToPixelBufferConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageToPixelBufferConverter.swift; sourceTree = "<group>"; };
+		E792FA6220A455DF00A63820 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		E792FA6420A455DF00A63820 /* PredictionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PredictionView.swift; sourceTree = "<group>"; };
+		E792FA6520A455DF00A63820 /* GroceryItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryItemTableViewCell.swift; sourceTree = "<group>"; };
 		E7E9337520A4477B00503AF7 /* SampleAppiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAppiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E9337820A4477B00503AF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7E9337A20A4477B00503AF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +45,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E792FA5E20A455DE00A63820 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E792FA5F20A455DE00A63820 /* RecognizerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E792FA6020A455DF00A63820 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E792FA6120A455DF00A63820 /* ImageToPixelBufferConverter.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E792FA6320A455DF00A63820 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E792FA6420A455DF00A63820 /* PredictionView.swift */,
+				E792FA6520A455DF00A63820 /* GroceryItemTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E7E9336C20A4477B00503AF7 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +89,10 @@
 		E7E9337720A4477B00503AF7 /* SampleAppiOS */ = {
 			isa = PBXGroup;
 			children = (
+				E792FA5E20A455DE00A63820 /* Controller */,
+				E792FA6020A455DF00A63820 /* Helper */,
+				E792FA6220A455DF00A63820 /* MobileNet.mlmodel */,
+				E792FA6320A455DF00A63820 /* View */,
 				E7E9337820A4477B00503AF7 /* AppDelegate.swift */,
 				E7E9337A20A4477B00503AF7 /* ViewController.swift */,
 				E7E9337C20A4477B00503AF7 /* Main.storyboard */,
@@ -136,6 +175,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7E9337B20A4477B00503AF7 /* ViewController.swift in Sources */,
+				E792FA6A20A455DF00A63820 /* GroceryItemTableViewCell.swift in Sources */,
+				E792FA6820A455DF00A63820 /* MobileNet.mlmodel in Sources */,
+				E792FA6620A455DF00A63820 /* RecognizerViewController.swift in Sources */,
+				E792FA6920A455DF00A63820 /* PredictionView.swift in Sources */,
+				E792FA6720A455DF00A63820 /* ImageToPixelBufferConverter.swift in Sources */,
 				E7E9337920A4477B00503AF7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
