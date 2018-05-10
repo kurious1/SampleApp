@@ -126,6 +126,12 @@ extension RecognizerViewController: UITableViewDataSource {
     }
 }
 
+
+func bugFixesForUAT(){
+    
+}
+
+
 // MARK: - RecognizerViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate
 
 extension RecognizerViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
