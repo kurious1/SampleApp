@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "3bebaef7fbb487d72d3101aa3677c7ce"
+build_time: [1526288948, 54938000]
+inputs:
+  "/Users/52011566/Desktop/Sample Projects /SampleApp/SampleAppiOS/ViewController.swift": [1525952111, 0]
+  "/Users/52011566/Desktop/Sample Projects /SampleApp/SampleAppiOS/View/GroceryItemTableViewCell.swift": [1525949632, 0]
+  "/Users/52011566/Desktop/Sample Projects /SampleApp/SampleAppiOS/Controller/RecognizerViewController.swift": [1526011471, 0]
+  "/Users/52011566/Desktop/Sample Projects /SampleApp/SampleAppiOS/View/PredictionView.swift": [1525949632, 0]
+  "/Users/52011566/Desktop/Sample Projects /SampleApp/SampleAppiOS/Helper/ImageToPixelBufferConverter.swift": [1525949632, 0]
+  "/Users/52011566/Desktop/Sample Projects /SampleApp/SampleAppiOS/AppDelegate.swift": [1525949632, 0]
+  "/Users/52011566/Desktop/Sample Projects /SampleApp/DerivedData/SampleAppiOS/Build/Intermediates.noindex/SampleAppiOS.build/Debug-iphonesimulator/SampleAppiOS.build/DerivedSources/CoreMLGenerated/MobileNet/MobileNet.swift": [1526288947, 0]

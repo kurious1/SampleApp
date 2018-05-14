@@ -1,0 +1,14 @@
+PODS:
+  - Dynatrace (7.0.18.1007):
+    - Dynatrace/framework (= 7.0.18.1007)
+  - Dynatrace/framework (7.0.18.1007)
+
+DEPENDENCIES:
+  - Dynatrace
+
+SPEC CHECKSUMS:
+  Dynatrace: 6bc5f37e7661dffece34315c595798ea7ea7c61e
+
+PODFILE CHECKSUM: 3a625fb4e062a0b74eb9232d2d3b72bfe10b51ec
+
+COCOAPODS: 1.4.0

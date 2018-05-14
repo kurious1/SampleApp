@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/52011566/Desktop/Sample Projects /SampleApp/DerivedData/SampleAppiOS/Build/Products/Debug-iphonesimulator/Pods_SampleAppiOS.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-SampleAppiOS-umbrella.h",
+          'external-contents': "/Users/52011566/Desktop/Sample Projects /SampleApp/Pods/Target Support Files/Pods-SampleAppiOS/Pods-SampleAppiOS-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_SampleAppiOS-Swift.h",
+          'external-contents': "/Users/52011566/Desktop/Sample Projects /SampleApp/DerivedData/SampleAppiOS/Build/Products/Debug-iphonesimulator/Pods_SampleAppiOS.framework/Headers/Pods_SampleAppiOS-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/52011566/Desktop/Sample Projects /SampleApp/DerivedData/SampleAppiOS/Build/Products/Debug-iphonesimulator/Pods_SampleAppiOS.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/52011566/Desktop/Sample Projects /SampleApp/DerivedData/SampleAppiOS/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Pods-SampleAppiOS.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
