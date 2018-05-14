@@ -40,12 +40,14 @@ class RecognizerViewController: UIViewController {
     // MARK: Actions
     
     @IBAction func takePhoto() {
-        if UIImagePickerController.isSourceTypeAvailable(.camera) {
-            imagePickerController.sourceType = .camera
-            present(imagePickerController, animated: true, completion: nil)
-        } else {
-            showCameraNotAvailableAlert()
-        }
+        imagePickerController.sourceType = .camera
+        //            present(imagePickerController, animated: true, completion: nil)
+//        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+//            imagePickerController.sourceType = .camera
+//            present(imagePickerController, animated: true, completion: nil)
+//        } else {
+//            showCameraNotAvailableAlert()
+//        }
     }
     
     @IBAction func selectPhoto() {
