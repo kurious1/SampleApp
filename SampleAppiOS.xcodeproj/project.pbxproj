@@ -406,15 +406,17 @@
 			baseConfigurationReference = 8A88605A54595E1242466EF3 /* Pods-SampleAppiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HN6PTR8K84;
+				DEVELOPMENT_TEAM = ZMVGFV9EUS;
 				INFOPLIST_FILE = SampleAppiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = priya.SampleAppiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = conduent.SampleiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -425,15 +427,17 @@
 			baseConfigurationReference = DED6AE73CFBAC305B8F1DFE5 /* Pods-SampleAppiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HN6PTR8K84;
+				DEVELOPMENT_TEAM = ZMVGFV9EUS;
 				INFOPLIST_FILE = SampleAppiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = priya.SampleAppiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = conduent.SampleiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
